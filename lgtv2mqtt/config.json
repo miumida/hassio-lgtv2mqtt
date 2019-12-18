@@ -18,10 +18,10 @@
     "config:rw"
   ],
   "ports": {
-    "8485/tcp": 8485
+    "8486/tcp": 8486
   },
   "ports_description": {
-    "8485/tcp": "Socat tcp-listen port"
+    "8486/tcp": "Socat tcp-listen port"
   },
   "options": {
     "data_path": "/share/lgtv2mqtt",
