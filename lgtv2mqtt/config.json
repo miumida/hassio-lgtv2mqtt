@@ -27,25 +27,21 @@
     "data_path": "/share/lgtv2mqtt",
     "homeassistant": true,
     "permit_join": false,
-    "mqtt": {
-      "base_topic": "lgtv2mqtt",
-      "server": "mqtt://core-mosquitto",
-      "user": "my_user",
-      "password": "my_password",
-      "webostv": "webostv_ip"
-    },
+    "mqtt_base_topic": "lgtv2mqtt",
+    "mqtt_server": "mqtt://core-mosquitto",
+    "mqtt_user": "my_user",
+    "mqtt_password": "my_password",
+    "lgwebostv": "lgwebostv_ip"
   },
   "schema": {
     "data_path": "str",
     "homeassistant": "bool",
     "permit_join": "bool",
-    "mqtt": {
-      "base_topic": "str",
-      "server": "str",
-      "user": "str?",
-      "password": "str?",
-      "webostv": "str?"
-    }
+    "mqtt_base_topic": "str",
+    "mqtt_server": "str",
+    "mqtt_user": "str?",
+    "mqtt_password": "str?",
+    "lgwebostv": "str?",
   },
   "image": "miumida/lgtv2mqtt-{arch}"
 }
