@@ -31,7 +31,8 @@
       "base_topic": "lgtv2mqtt",
       "server": "mqtt://core-mosquitto",
       "user": "my_user",
-      "password": "my_password"
+      "password": "my_password",
+      "webostv": "webostv_ip"
     },
   },
   "schema": {
@@ -42,7 +43,8 @@
       "base_topic": "str",
       "server": "str",
       "user": "str?",
-      "password": "str?"
+      "password": "str?",
+      "webostv": "str?"
     }
   },
   "image": "miumida/lgtv2mqtt-{arch}"
