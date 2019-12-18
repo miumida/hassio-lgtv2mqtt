@@ -1,1 +1,5 @@
-
+{
+  "name": "Lgtv2mqtt Hass.io Add-ons",
+  "url": "https://github.com/miumida/hassio-lgtv2mqtt",
+  "maintainer": "miumida <miumida@gmail.com>"
+}
