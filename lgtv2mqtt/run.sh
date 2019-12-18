@@ -9,7 +9,8 @@ MQTT_SERVER=$(jq --raw-output ".mqtt_server" $CONFIG_PATH)
 MQTT_USER=$(jq --raw-output ".mqtt_user" $CONFIG_PATH)
 LGWEBOSTV=$(jq --raw-output ".lgwebostv" $CONFIG_PATH)
 
-echo "[Info] MQTT Sever is [${MQTT_SERVER}] : ${MQTT_USER} : ${LGWEBOSTV}"
+echo "[Info] MQTT Sever is [${MQTT_SERVER}] : USER( ${MQTT_USER} )"
+echo "[Info] LGWEBOSTV IP is [${LGWEBOSTV}"]
 
 # Check if config exists already
 mkdir -p $DATA_PATH
@@ -19,7 +20,7 @@ if [[ -f $DATA_PATH/configuration.yaml ]]; then
         echo "[Info] Configuration file found in data path, but no backup file found in data path. Backing up existing configuration to ${DATA_PATH}/.configuration.yaml.bk"
         cp $DATA_PATH/configuration.yaml $DATA_PATH/.configuration.yaml.bk
     else
-        "[Info] Configuration backup found in ${DATA_PATH}/.configuration.yaml.bk. Skipping config backup."
+        echo "[Info] Configuration backup found in ${DATA_PATH}/.configuration.yaml.bk. Skipping config backup."
     fi
 fi
 
