@@ -1,5 +1,4 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM node:slim
 
 # Add env
 ENV LANG C.UTF-8
