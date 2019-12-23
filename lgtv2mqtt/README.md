@@ -1,4 +1,4 @@
-#Lgtv2mqtt Hass.io Add-on
+# Lgtv2mqtt Hass.io Add-on
 Run Lgtv2mqtt as a Hass.io Add-on
 
 ## About
