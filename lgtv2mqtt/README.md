@@ -12,5 +12,6 @@ lgtv2mqtt BASE의 hassio 애드온입니다. 이미 다 되어 있는걸 도커�
 
 
 ## 참조링크
-[1] lgtv2mqtt github : <https://github.com/hobbyquaker/lgtv2mqtt><br>
-[2] LG WebOStv Lovelace Picture card : <https://community.home-assistant.io/t/lg-webostv-lovelace-picture-card/109895><br>
+[1] webostv component : <https://www.home-assistant.io/integrations/webostv><br>
+[2] lgtv2mqtt github : <https://github.com/hobbyquaker/lgtv2mqtt><br>
+[3] LG WebOStv Lovelace Picture card : <https://community.home-assistant.io/t/lg-webostv-lovelace-picture-card/109895><br>
