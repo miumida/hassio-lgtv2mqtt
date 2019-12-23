@@ -1,6 +1,6 @@
 {
   "name": "lgtv2mqtt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "lgtv2mqtt",
   "description": "Lgtv to MQTT Bridge",
   "auto_uart": true,
