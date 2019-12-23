@@ -27,5 +27,5 @@ fi
 # Parse config
 cat "$CONFIG_PATH" | jq 'del(.data_path)' > $DATA_PATH/configuration.yaml
 
-# RUN zigbee2mqtt
-# LGTV2MQTT_DATA="$DATA_PATH" pm2-runtime start npm -- start
+# RUN lgtv2mqtt
+node /usr/lib/node_modules/lgtv2mqtt/index.js --verbosity=info --name=lgtv --url=$MQTT_SERVER --tv=$LGWEBOSTV
